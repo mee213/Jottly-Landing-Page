@@ -50,10 +50,19 @@
 		h6 {
 			padding-top: 30px;
 			padding-bottom: 30px;
+			line-height: 1.4;
 		}
 		h1.logo {
 			display: block;
 			margin-top:20px;
+		}
+		#marketing h1 {
+			margin-top: 10px;
+			font-size: 55px;
+			margin-bottom: 20px;
+		}
+		#marketing h2 {
+			line-height: 1.5;
 		}
 		nav {
 			display: block;
@@ -84,6 +93,9 @@
 			padding-top: 30px;
 			text-align: center;
 		}
+		#f-and-b-interior p {
+			line-height: 1.7;
+		}
 
 		#footer nav ul li a.selected {
 			color: #3498db;
@@ -92,6 +104,9 @@
 			float:none;
 			display:block;
 			text-align: center;
+			margin-top: 10px;
+			font-size: 55px;
+			margin-bottom: 20px;
 		}
 	}
 
