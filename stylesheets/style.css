@@ -114,12 +114,11 @@ nav ul li a.selected {
 #footer h1 {
   color: #3498db;
   float: right;
+  display: inline;
 }
 #footer h1 img {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.email-input-box { 
-    
- } 
+
 

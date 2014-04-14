@@ -36,7 +36,64 @@
 	@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		h1 {
+			text-align:center;
+		}
+		h2 {
+			text-align: center;
+		}
+		h3 {
+			margin-top: 25px;
+			line-height:40px;
+		}
+		h6 {
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		h1.logo {
+			display: block;
+			margin-top:20px;
+		}
+		nav {
+			display: block;
+		}
+		nav ul {
+			float:none;
+			text-align:center;
+		}
+		nav ul li {
+			display:block;
+		}
+		nav ul li a.selected {
+			border-bottom:none;
+			padding:5px 0;
+		}
+		#header nav ul li a.selected {
+			color: #f1c40f;
+		}
+		form {
+			
+			text-align: center;
+			margin: auto;
+		}
+		#macbook {
+			padding:30px 10px 45px 10px;
+		}
+		#f-and-b-interior {
+			padding-top: 30px;
+			text-align: center;
+		}
+
+		#footer nav ul li a.selected {
+			color: #3498db;
+		}
+		#footer h1 {
+			float:none;
+			display:block;
+			text-align: center;
+		}
+	}
 
 
 /* #Font-Face
